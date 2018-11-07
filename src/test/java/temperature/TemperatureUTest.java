@@ -1,4 +1,4 @@
-package domain;
+package temperature;
 
 import org.junit.Test;
 
