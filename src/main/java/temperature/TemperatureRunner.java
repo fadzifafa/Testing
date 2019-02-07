@@ -17,11 +17,6 @@ public class TemperatureRunner implements CommandLineRunner {
         items.add(new Temperature(15.0));
 
         items.forEach(temperature -> System.out.println(temperature.getCelsiusTemp()));
-
-        //Task 1 Print the median temperature
-
-        //Task 2 Re-factor your code so that you can read temperatures from an external service
-
     }
 
 }
