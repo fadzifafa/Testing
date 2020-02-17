@@ -7,8 +7,8 @@ import temperature.config.TemperatureAppConfig;
 @SpringBootApplication
 public class TemperatureApp {
 
-    public static void main(String args[]) {
-        SpringApplication.run(TemperatureAppConfig.class);
+    public static void main(String[] args) {
+        SpringApplication.run(TemperatureAppConfig.class, args);
     }
 
 }
